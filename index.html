@@ -1,43 +1,94 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Tap One Scan</title>
+    <meta name="description" content="Alex - Fitness Coach, Personal Trainer and Nutritionist.">
+    <title>Alex | One Tap One Scan</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             background: #080808;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 30px 15px;
+            margin: 0;
         }
 
         .card {
-            max-width: 350px;
+            max-width: 380px;
             margin: auto;
-            padding: 30px 20px;
+            padding: 30px 22px;
             background: #171717;
             border: 1px solid #333;
-            border-radius: 20px;
+            border-radius: 22px;
+        }
+
+        .brand {
+            font-size: 22px;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #999;
+            font-size: 13px;
         }
 
         .profile {
-            width: 110px;
-            height: 110px;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
             border-radius: 50%;
             border: 3px solid white;
-            margin-bottom: 15px;
+            margin: 20px 0 10px;
         }
 
-        h1 {
-            font-size: 24px;
+        h2 {
+            font-size: 27px;
+            margin: 8px 0;
+            text-transform: uppercase;
             letter-spacing: 2px;
         }
 
-        p {
+        .profession {
+            color: #ccc;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .tagline {
+            color: white;
+            font-size: 14px;
+            line-height: 1.7;
+            margin: 18px 0 25px;
+        }
+
+        h3 {
+            font-size: 17px;
+            letter-spacing: 1px;
+            margin-top: 28px;
+            color: white;
+        }
+
+        .description {
             color: #aaa;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .services {
+            color: #ccc;
+            font-size: 14px;
+            line-height: 2;
+            padding: 0;
+            list-style: none;
         }
 
         .link {
@@ -45,10 +96,28 @@
             background: white;
             color: black;
             text-decoration: none;
-            padding: 13px;
+            padding: 14px;
             margin: 12px 0;
             border-radius: 10px;
             font-weight: bold;
+            transition: 0.2s;
+        }
+
+        .link:hover {
+            background: #d6d6d6;
+            transform: scale(1.02);
+        }
+
+        .location {
+            color: #aaa;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            color: #666;
+            font-size: 12px;
+            margin-top: 28px;
         }
     </style>
 </head>
@@ -56,22 +125,85 @@
 <body>
 
     <div class="card">
-        <h1>ONE TAP ONE SCAN</h1>
-        <p>Your Digital Identity</p>
+
+        <h1 class="brand">ONE TAP ONE SCAN</h1>
+        <p class="subtitle">YOUR DIGITAL IDENTITY</p>
 
         <img class="profile"
-        src="alex.jpg"
-        alt="Profile photo">
+             src="alex.jpg"
+             alt="Alex's Profile Photo">
 
         <h2>Alex</h2>
-        <p>Fitness Coach | Personal Trainer | Nutritionist</p>
 
-        <a class="link" href="https://t.me/alexfitnessalex">Telegram</a>
+        <p class="profession">
+            Fitness Coach | Personal Trainer | Nutritionist
+        </p>
 
-        <a class="link" href="https://instagram.com/alexdani599_">Instagram</a>
+        <p class="tagline">
+            Helping You Reach Your Fitness Goals Through
+            Smart Training & Nutrition.
+        </p>
 
-        <a class="link" href="https://www.tiktok.com/@coachalex001">TikTok</a>
-        <a class="link" href="tel:+251962336109">Call Me</a>
-        <a class="link" href="https://wa.me/251962336109">WhatsApp</a></div>
-     </body>
+        <h3>ABOUT ME</h3>
+
+        <p class="description">
+            Dedicated to helping individuals improve their
+            fitness, build strength, and develop healthy
+            lifestyles through personalized training and
+            nutrition guidance.
+        </p>
+
+        <h3>MY SERVICES</h3>
+
+        <ul class="services">
+            <li>Personal Training</li>
+            <li>Fitness Coaching</li>
+            <li>Nutrition Guidance</li>
+            <li>Workout Planning</li>
+            <li>Fitness Goal Support</li>
+        </ul>
+
+        <h3>CONNECT WITH ME</h3>
+
+        <a class="link"
+           href="https://t.me/alexfitnessalex"
+           target="_blank" rel="noopener">
+           Telegram
+        </a>
+
+        <a class="link"
+           href="https://instagram.com/alexdani599_"
+           target="_blank" rel="noopener">
+           Instagram
+        </a>
+
+        <a class="link"
+           href="https://www.tiktok.com/"@alexr455"
+           target="_blank" rel="noopener">
+           TikTok
+        </a>
+
+        <a class="link"
+           href="https://wa.me/251962336109"
+           target="_blank" rel="noopener">
+           WhatsApp
+        </a>
+
+        <a class="link" href="tel:+251962336109">
+            Call Me
+        </a>
+
+        <h3>LOCATION</h3>
+
+        <p class="location">
+            Training location details coming soon.
+        </p>
+
+        <p class="footer">
+            © 2026 Alex | One Tap One Scan
+        </p>
+
+    </div>
+
+</body>
 </html>
